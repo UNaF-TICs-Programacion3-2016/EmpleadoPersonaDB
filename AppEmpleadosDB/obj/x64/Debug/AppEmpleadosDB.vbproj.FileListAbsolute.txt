@@ -1,0 +1,11 @@
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\bin\x64\Debug\AppEmpleadosDB.exe.config
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\bin\x64\Debug\AppEmpleadosDB.exe
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\bin\x64\Debug\AppEmpleadosDB.pdb
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\bin\x64\Debug\AppEmpleadosDB.xml
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\x64\Debug\AppEmpleadosDB.vbprojResolveAssemblyReference.cache
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\x64\Debug\AppEmpleadosDB.Form1.resources
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\x64\Debug\AppEmpleadosDB.Resources.resources
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\x64\Debug\AppEmpleadosDB.vbproj.GenerateResource.Cache
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\x64\Debug\AppEmpleadosDB.exe
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\x64\Debug\AppEmpleadosDB.xml
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\x64\Debug\AppEmpleadosDB.pdb

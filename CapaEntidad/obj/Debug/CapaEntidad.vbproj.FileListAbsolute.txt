@@ -1,0 +1,4 @@
+D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\CapaEntidad\obj\Debug\CapaEntidad.vbprojResolveAssemblyReference.cache
+D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
+D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.Cache
+D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\CapaEntidad\obj\Debug\CapaEntidad.xml

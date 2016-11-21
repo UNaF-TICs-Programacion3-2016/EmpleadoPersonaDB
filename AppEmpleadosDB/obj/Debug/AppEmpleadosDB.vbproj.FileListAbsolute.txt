@@ -1,0 +1,15 @@
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\bin\Debug\AppEmpleadosDB.exe.config
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\bin\Debug\AppEmpleadosDB.exe
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\bin\Debug\AppEmpleadosDB.pdb
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\bin\Debug\AppEmpleadosDB.xml
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.vbprojResolveAssemblyReference.cache
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.Resources.resources
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.vbproj.GenerateResource.Cache
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.exe
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.xml
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.pdb
+d:\heber\documents\visual studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\bin\Debug\Oracle.DataAccess.dll
+D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.FrmEmpleado.resources
+D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.FrmPrincipal.resources
+D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.Frm_Abm_Persona.resources
+D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.Frm_Inicial_Personas.resources
