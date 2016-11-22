@@ -2,7 +2,7 @@
 Imports Oracle.DataAccess.Client
 
 Public Class ClaseEmpleado
-    Inherits ClaseTabla
+    Inherits ClasePersona
     Public Enum Tipo_Estado As Byte
         Activo
         Licencia
@@ -26,13 +26,6 @@ Public Class ClaseEmpleado
     End Enum
 
     Private Empleado As DataRow
-    Private Persona As ClasePersona
-
-    Public ReadOnly Property PersonaRelacionada As ClasePersona
-        Get
-            Return Persona
-        End Get
-    End Property
 
     Public Property FechaIngreso() As Date
         Get
@@ -79,30 +72,27 @@ Public Class ClaseEmpleado
             Return Empleado("Id_Empleado")
         End Get
         Protected Set(pIdEmpleado As Long)
-            Empleado("Id_Empleado") = pIdEmpleado
+            Empleado("Id_Empleado") = pIdEmpleado.ToString
         End Set
     End Property
     Public Property Rela_Persona As Long
         Get
-            Return IIf(IsDBNull(Empleado("Rela_Persona")), 0, Empleado("Rela_Persona"))
+            Return Id_Persona
         End Get
         Set(pRelaPersona As Long)
-            Empleado("Rela_Persona") = pRelaPersona
+            Id_Persona = pRelaPersona
         End Set
     End Property
 
-    Public Sub New(pIdEmpleado As Integer)
+    Public Sub New(Optional pRelaPersona As Integer = -1, Optional pIdEmpleado As Integer = -1)
+        MyBase.New(pRelaPersona.ToString)
         Tabla = "Empleado"
         Vista = "EmpleadoVW"
-        Empleado = MyBase.ObtenerRegistroConId(pIdEmpleado.ToString)
-        If pIdEmpleado < 0 Then
-            Persona = New ClasePersona(-1)
-        Else
-            Persona = New ClasePersona(Empleado("Rela_Persona"))
-        End If
-
+        Empleado = ObtenerRegistroConId(pIdEmpleado.ToString)
         Id_Empleado = pIdEmpleado.ToString
     End Sub
+
+
 
     Protected Overrides Function InsertCommand() As OracleCommand
         With Cmd
@@ -157,7 +147,6 @@ Public Class ClaseEmpleado
         End With
         Return Cmd
     End Function
-
 
 End Class
 

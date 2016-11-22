@@ -10,7 +10,7 @@ Public Class ClasePersona
         Masculino = 1
     End Enum
 
-    Private Persona As DataRow
+    Protected Persona As DataRow
 
     Public Property ApellidoyNombre() As String
         Get
@@ -68,10 +68,10 @@ Public Class ClasePersona
             Persona("Id_Persona") = pIdPersona
         End Set
     End Property
-    Public Sub New(pIdPersona As Integer)
-        MyBase.Tabla = "Persona"
-        MyBase.Vista = "PersonaVW"
-        Persona = MyBase.ObtenerRegistroConId(pIdPersona.ToString)
+    Public Sub New(Optional pIdPersona As Integer = -1)
+        Tabla = "Persona"
+        Vista = "PersonaVW"
+        Persona = ObtenerRegistroConId(pIdPersona.ToString)
         Id_Persona = pIdPersona.ToString
     End Sub
 
@@ -124,5 +124,6 @@ Public Class ClasePersona
         End With
         Return Cmd
     End Function
+
 End Class
 

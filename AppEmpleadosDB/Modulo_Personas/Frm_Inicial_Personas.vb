@@ -1,7 +1,6 @@
 ﻿Imports CapaDatos
 Public Class Frm_Inicial_Personas
 
-    Friend oPersona As ClasePersona
     Friend IdPersona As Integer
     Friend Accion As Tipo_Accion
 
@@ -17,8 +16,7 @@ Public Class Frm_Inicial_Personas
     End Sub
 
     Private Sub Frm_Inicial_Personas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        oPersona = New ClasePersona(-1)
-        CargarGrillaPersonas
+        CargarGrillaPersonas()
     End Sub
 
     Private Sub BajaCmd_Click(sender As Object, e As EventArgs) Handles BajaCmd.Click
@@ -29,7 +27,7 @@ Public Class Frm_Inicial_Personas
 
     Friend Sub CargarGrillaPersonas()
         With PersonasDGV
-            .DataSource = oPersona.ListarRegistros()
+            .DataSource = New ClasePersona().ListarRegistros()
             .Columns("Id_Persona").Visible = False
             .Columns("Sexo").Visible = False
             .Columns("Sexo_Text").HeaderText = "Sexo"

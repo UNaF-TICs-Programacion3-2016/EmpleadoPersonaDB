@@ -80,7 +80,7 @@ Public MustInherit Class ClaseTabla
         End Try
     End Function
 
-    Public Function ListarRegistros(Optional Filtro As String = "") As DataTable
+    Public Overridable Function ListarRegistros(Optional Filtro As String = "") As DataTable
         Dim TablaDT As New DataTable
         Dim SelectString As String = "Select * From " + Vista
         If Filtro <> "" Then
@@ -94,7 +94,6 @@ Public MustInherit Class ClaseTabla
         Catch Ex As Exception
             MsgBox(Ex.ToString)
         End Try
-
     End Function
 
     Public Function Insertar() As Boolean

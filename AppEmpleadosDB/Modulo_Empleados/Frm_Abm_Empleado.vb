@@ -1,5 +1,6 @@
 ﻿Imports CapaDatos
 Public Class Frm_Abm_Empleado
+
     Private oEmpleado As ClaseEmpleado
     Private EsBaja As Boolean
     Private Accion As Tipo_Accion
@@ -8,7 +9,7 @@ Public Class Frm_Abm_Empleado
         EsBaja = False
         Accion = Tipo_Accion.Alta
         'Instancio la Clase Empleado
-        oEmpleado = New ClaseEmpleado(-1)
+        oEmpleado = New ClaseEmpleado()
         'Muestro los datos obtenidos
         MostrarDatosEnFormulario()
         GBoxHeader.Enabled = False
@@ -45,7 +46,7 @@ Public Class Frm_Abm_Empleado
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        oEmpleado = New ClaseEmpleado(-1)
+        oEmpleado = New ClaseEmpleado()
 
         CargarComboEmpleado()
 
@@ -91,10 +92,10 @@ Public Class Frm_Abm_Empleado
     Private Sub CargarComboPersona(Optional pRela_Persona As Integer = -1)
         With CmbPersona
             If pRela_Persona > 0 Then
-                .DataSource = oEmpleado.PersonaRelacionada.ListarRegistros(
+                .DataSource = New ClasePersona().ListarRegistros(
                     "Id_Persona = " + pRela_Persona.ToString)
             Else
-                .DataSource = oEmpleado.PersonaRelacionada.ListarRegistros()
+                .DataSource = New ClasePersona().ListarRegistros()
             End If
             .DisplayMember = "ApellidoyNombre"
             .ValueMember = "Id_Persona"
@@ -117,7 +118,7 @@ Public Class Frm_Abm_Empleado
                     If MsgBox("Seguro que desea dar de baja al Empleado?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = vbYes Then
                         If oEmpleado.Eliminar() Then
                             MsgBox("Se Eliminó correctamente al Empleado " +
-                               oEmpleado.PersonaRelacionada.ApellidoyNombre, MsgBoxStyle.Information)
+                               oEmpleado.ApellidoyNombre, MsgBoxStyle.Information)
                         Else
                             Exit Sub
                         End If
@@ -125,7 +126,7 @@ Public Class Frm_Abm_Empleado
                 Case Tipo_Accion.Modificacion
                     If oEmpleado.Actualizar() Then
                         MsgBox("Los datos del Empleado " +
-                               oEmpleado.PersonaRelacionada.ApellidoyNombre +
+                               oEmpleado.ApellidoyNombre +
                                " se Actualizaron correctamente", MsgBoxStyle.Information)
                     Else
                         Exit Sub
@@ -154,7 +155,7 @@ Public Class Frm_Abm_Empleado
                 Err.Raise(-5,, "Debe seleccionar un Empleado.")
             End If
             'Instancio la Clase Empleado
-            oEmpleado = New ClaseEmpleado(CmbEmpleado.SelectedValue)
+            oEmpleado = New ClaseEmpleado(CmbEmpleado.SelectedItem("Rela_Persona"), CmbEmpleado.SelectedValue)
             'Muestro los datos obtenidos
             MostrarDatosEnFormulario()
             GBoxHeader.Enabled = False
@@ -171,7 +172,7 @@ Public Class Frm_Abm_Empleado
                 Err.Raise(-5,, "Debe seleccionar un Empleado.")
             End If
             'Instancio la Clase Empleado
-            oEmpleado = New ClaseEmpleado(CmbEmpleado.SelectedValue)
+            oEmpleado = New ClaseEmpleado(CmbEmpleado.SelectedItem("Rela_Persona"), CmbEmpleado.SelectedValue)
             'Muestro los datos obtenidos
             MostrarDatosEnFormulario()
             GBoxHeader.Enabled = False
@@ -180,7 +181,4 @@ Public Class Frm_Abm_Empleado
         End Try
     End Sub
 
-    Private Sub CmbPersona_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CmbPersona.SelectedIndexChanged
-
-    End Sub
 End Class

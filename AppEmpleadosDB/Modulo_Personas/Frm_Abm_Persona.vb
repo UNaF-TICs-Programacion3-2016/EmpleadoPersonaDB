@@ -30,15 +30,15 @@ Public Class Frm_Abm_Persona
         Select Case Frm_Inicial_Personas.Accion
             Case Tipo_Accion.Alta
                 If oPersona.Insertar() Then
-                    MsgBox("Se dió de Alta correctamente al Empleado " +
+                    MsgBox("Se dió de Alta correctamente a la Persona " +
                                oPersona.ApellidoyNombre, MsgBoxStyle.Information)
                 Else
                     Exit Sub
                 End If
             Case Tipo_Accion.Baja
-                If MsgBox("Seguro que desea dar de baja al Empleado?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = vbYes Then
+                If MsgBox("Seguro que desea dar de baja a la Persona?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = vbYes Then
                     If oPersona.Eliminar() Then
-                        MsgBox("Se Eliminó correctamente al Empleado " +
+                        MsgBox("Se Eliminó correctamente a la Persona " +
                                oPersona.ApellidoyNombre, MsgBoxStyle.Information)
                     Else
                         Exit Sub
@@ -46,7 +46,7 @@ Public Class Frm_Abm_Persona
                 End If
             Case Tipo_Accion.Modificacion
                 If oPersona.Actualizar() Then
-                    MsgBox("Los datos del Empleado " +
+                    MsgBox("Los datos de la Persona " +
                                oPersona.ApellidoyNombre +
                                " se Actualizaron correctamente", MsgBoxStyle.Information)
                 Else

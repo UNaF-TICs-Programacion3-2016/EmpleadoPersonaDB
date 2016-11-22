@@ -8,3 +8,13 @@ D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\CapaDatos\bin\Debu
 D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\CapaDatos\bin\Debug\Oracle.DataAccess.dll
 D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\CapaDatos\obj\Debug\CapaDatos.dll
 D:\Heber\Documents\Visual Studio 2015\Projects\AppEmpleadosDB\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\bin\Debug\CapaDatos.xml
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\bin\Debug\Oracle.DataAccess.dll
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\obj\Debug\CapaDatos.vbprojResolveAssemblyReference.cache
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.Cache
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\obj\Debug\CapaDatos.xml
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\CapaDatos\obj\Debug\CapaDatos.pdb

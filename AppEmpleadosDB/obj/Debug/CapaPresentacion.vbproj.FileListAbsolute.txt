@@ -20,3 +20,17 @@ D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\bin
 D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.exe
 D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.xml
 D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.pdb
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\bin\Debug\AppEmpleadosDB.exe
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\bin\Debug\AppEmpleadosDB.pdb
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\bin\Debug\AppEmpleadosDB.xml
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\bin\Debug\CapaDatos.dll
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\bin\Debug\Oracle.DataAccess.dll
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\bin\Debug\CapaDatos.pdb
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\bin\Debug\CapaDatos.xml
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\CapaPresentacion.vbprojResolveAssemblyReference.cache
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.Frm_Abm_Empleado.resources
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.Frm_Abm_Persona.resources
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.Frm_Inicial_Personas.resources
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.FrmPrincipal.resources
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\AppEmpleadosDB.Resources.resources
+D:\Heber\Documents\Visual Studio 2015\Repos\EmpleadoPersonaDB\AppEmpleadosDB\obj\Debug\CapaPresentacion.vbproj.GenerateResource.Cache
